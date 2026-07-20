@@ -10,7 +10,11 @@
     > Easy to colab
 5. End to End project(chatbot)
     > method vs function
+    > magic method or dunder method
+    > self
+    > you can create attribute outside of class as well.
     > encapsulation 
     > getter and setter
     > static method
+    > inheritence
 

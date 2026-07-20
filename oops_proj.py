@@ -1,9 +1,30 @@
 class chatbook:
+
+    __user_id = 1  # Class variable to keep track of user IDs
+
     def __init__(self):
+        # Initialize instance(static) variables
+        self.id = chatbook.__user_id  # Assign the current user ID to the instance
+        chatbook.__user_id += 1  # Increment the class variable for the next user
         self.username = ''
         self.password = ''
         self.loggedin = False
-        
+        self.__name = 'Default Name'  # Private attribute
+
+    @staticmethod
+    def get_id():
+        return chatbook.__user_id
+    
+    @staticmethod
+    def set_id(set_id):
+        chatbook.__user_id = set_id
+
+    # Getter and Setter for private attribute
+    def get_name(self):
+        return self.__name
+
+    def set_name(self, name):
+        self.__name = name
         
 
     def menu(self):
