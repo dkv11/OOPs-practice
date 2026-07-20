@@ -3,7 +3,8 @@ class chatbook:
         self.username = ''
         self.password = ''
         self.loggedin = False
-        self.menu()
+        
+        
 
     def menu(self):
         user_input = input("""Welcome to Chatbook! How would like to to proceed?

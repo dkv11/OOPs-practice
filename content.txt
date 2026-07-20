@@ -8,8 +8,9 @@
     > Code reusabilty
     > Debugging
     > Easy to colab
-5. End to End project 
+5. End to End project(chatbot)
+    > method vs function
     > encapsulation 
     > getter and setter
     > static method
-    
+
